@@ -5,11 +5,11 @@ body{
 h1{
     font-size: 50px;
 }
-#peter
+.yellow-color
 {
     color: yellow;
 }
-section{
+.flexible-container{
     display: flex;
     padding-bottom: 50px;
 }
@@ -43,4 +43,33 @@ section{
     background-position: right;
     
   
+}
+.experience-box-color{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 30px;
+    box-shadow: 10px 10px 40px gray;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+   
+}
+
+#web-dev{
+    border-left: 7px solid;
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+    url("../../media/examples/lizard.png");
+    border-image-slice: 1;
+}
+#baby-webdev{
+
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon,tomato);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
